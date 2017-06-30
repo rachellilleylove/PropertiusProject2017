@@ -1,0 +1,355 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://digitallatin.github.io/guidelines/critical-editions.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://digitallatin.github.io/guidelines/critical-editions.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Propertius</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>Electronic edition, based primarily on Heyworth's 2007 OCT.</p>
+            </publicationStmt>
+            <sourceDesc>
+                <listWit>
+                    <listWit>
+                        <head>Codices</head>
+                        <witness xml:id="N" n="N">
+                            <label>N</label>—codex olim Neapolitanus nunc Guelferbytanus Gudianus
+                            224. s.xii in Gallia septentrionali scriptus. (Lacks IV xi
+                            17-76).</witness>
+                        <witness xml:id="A" n="A">
+                            <label>A</label>—codex Leidensis Vossianus lat.O.38 (missing II i 63).
+                            c. 1230-60 pro Ricardo Furniualensi scriptus.</witness>
+                        <witness xml:id="P" n="P">
+                            <label>P</label>—codex Parisinus Lat 7989, anno 1423 scriptus</witness>
+                        <witness xml:id="F" n="F">
+                            <label>F</label>—codex Laurentianus plut. 36.49, circa annum 1380
+                            scriptus</witness>
+                        <witness xml:id="L" n="L">
+                            <label>L</label>—codex Holkham. Misc. 36 (nunc Bodleianus), olim
+                            Holkhamicus 333, anno 1423 scriptus</witness>
+                        <witness xml:id="D" n="D">
+                            <label>D</label>—codex dauentriensis 1.82 (olim 1792), saeculo XV
+                            scriptus</witness>
+                        <witness xml:id="V" n="V">
+                            <label>V</label>—codex vaticanus Ottobonianus Lat. 1514, saeculo XV
+                            scriptus</witness>
+                        <witness xml:id="Vo" n="Vo">
+                            <label>Vossianus 117</label>—codex Vossianus 117, saeculo XV
+                            scriptus</witness>
+                        <witness xml:id="M" n="M">
+                            <label>codex Parisinus Bibl. Nat. lat.8233 (olim Memmianus)</label>anno
+                            1465 codex Parisinus a Gerardo Cerasio scriptus. ab editoribus μ adhuc
+                            appellatus</witness>
+                        <witness xml:id="U" n="U">
+                            <label>U</label>—codex Vaticanus Vrbinas lat. 641, circa annis 1465-70 a
+                            'Sinibaldo C.' scriptus. ad editoribus υ adhuc appellatus</witness>
+                    </listWit>
+                    <listWit>
+                        <head>Codices no longer extant</head>
+                        <witness xml:id="Ω" n="Ω">
+                            <label>Ω</label>—codex archetypus, uel certe codicum N et A/Π et Λ
+                            consensus.</witness>
+                        <witness xml:id="Λ" n="Λ">
+                            <label>Λ</label>—codex hyparchetypus ex quo JKW deriuati sunt.</witness>
+                        <witness xml:id="Υ" n="Υ">
+                            <label>Υ</label>—codex hyparchetypus ex quo MUR deriuati sunt.</witness>
+                        <witness xml:id="Ϛ" n="Ϛ">
+                            <label>Ϛ</label>—Conjectures from editions before 1600.</witness>
+                    </listWit>
+                </listWit>
+                <listBibl>
+                    <listBibl>
+                        <head>Complete Editions</head>
+                        <bibl xml:id="Burman" n="Burman">Burman, P. (completed by L. van Santen)
+                            (Utrecht, 1780)</bibl>
+                        <bibl xml:id="Giardina" n="Giardina 2005">Giardina, G. (Roma, 2005)</bibl>
+                        <bibl xml:id="Heyworth" n="Heyworth (base text)">Heyworth, S.J. (Oxford,
+                            2007)</bibl>
+                        <bibl xml:id="Lachmann" n="Lachmann">Lachmann, K. (Leipzig, 1816)</bibl>
+                        <bibl xml:id="Müller" n="Müller">Müller, L. (Teubner; Leipzig, 1870)</bibl>
+                        <bibl xml:id="Passerat" n="Passerat">Passerat, J. (Paris, 1608)</bibl>
+                        <bibl xml:id="Postgate" n="Postgate">Postgate, J.P., in <title>Corpus
+                                Poetrarum Latinorum</title> (London, 1827)</bibl>
+                        <bibl xml:id="Leo" n="Leo">Leo, F., Ausgewählte kleine Schriften (Roma,
+                            1960)</bibl>
+                        <bibl xml:id="Hemsterhuys" n="Hemsterhuys"/>
+                        
+                        <!-- had to add something here -->
+                        <bibl xml:id="Hartman" n="Hartman"/>
+                        <bibl xml:id="Fruter" n="Fruter"/>
+                        <bibl xml:id="Unger" n="Unger"/>
+                        <bibl xml:id="Richards" n="Richards"/>
+                        <bibl xml:id="Otto" n="Otto"/>
+                    </listBibl>
+                    <listBibl>
+                        <head>Sources of conjectures</head>
+                        <bibl xml:id="Fontein" n="Fontein">Fontein, Petrus (1708-1788), emendationes
+                            eius exstant in exemplari ed. Broukhusii, quae est in Bibliotheca
+                            ecclesiae Teleibaptistrium Amsteldamensis</bibl>
+                        <bibl xml:id="Francius" n="Francius">Francius, Petrus (Peter de Fransz,
+                            1645-1704): condiscipulis Broukhusii; notae eius adscriptae sunt in
+                            marg. edd. Passeratii 1608 Scaligeri 1577 (vid. Catalogum Librorum P.
+                            Francii, Amstelodami 1705, p. 148</bibl>
+                        <bibl xml:id="Graevius" n="Graevius">Graevius, Joannes Georgius (Johann
+                            Georg Greffe vel Graeve) 1623-1708; ed. Graeviana: Cat., Tib., Prop., ex
+                            rec. Joannis Georgii Graevii [cuius nomen falso usurpatur], Traiect.
+                            Rhen. 1680</bibl>
+                        <bibl xml:id="Georg_" n="Georg">Georg, B. previously unpublished
+                            conjectures.</bibl>
+                        <bibl xml:id="Heinsius" n="Heinsius">Heinsius, Nicolaus (Niklaas)
+                            (1620-1681): Adversariorum Libri IV (ed. P. Burman), Harlingen 1742,
+                            quibus accedunt Notae Propertianae, cura J. Broukhusii congestae.</bibl>
+                        <bibl xml:id="Heyworth1984" n="Heyworth (1984)">Heyworth, S.J., ‘Notes on
+                            Propertius Books I and II’, CQ 36 (1984), 394-405</bibl>
+                        <bibl xml:id="Housman" n="Housman">Housman, A.E., <title>The Classical
+                                Papers of A.E.Housman</title> (3 vols., ed J. Diggle &amp; F.R.D.
+                            Goodyear, 1972)</bibl>
+                        <bibl xml:id="Liberman2002" n="Liberman (2002)">Liberman, G. ‘Remarques sur
+                            le premier livre des <hi rend="italics">Élégies</hi> de Properce’,
+                                <title level="j">RPh</title> 76 (2002), 49–100.</bibl>
+                        <bibl xml:id="Madvig" n="Madvig">Madvig, J.N., Adversaria Critica II,
+                            Hauniae 1873, pp 62 sqq.</bibl>
+                        <bibl xml:id="Markland" n="Markland">Markland, Jeremiah (1693-1776): notae
+                            mss. inveniuntur in: Cat., Tib., Prop. ed. M. Brochard, Lutet. Paris.
+                            1723.</bibl>
+                        <bibl xml:id="Nodell" n="Nodell">Nodell, J. A.: Criticarum Observationum
+                            Libellus, Campis 1781.</bibl>
+                        <bibl xml:id="Peerlkamp" n="Peerlkamp">Peerlkamp, P. H. S.A.P. libri IV
+                            elegia xi: rec. et illustr. P.H.K. Edidit et praefatus est J. C. G.
+                            Boot, Amstelodami 1865</bibl>
+                        <bibl xml:id="Pescani" n="Pescani">P. Pescani, Un disticho interpolato nella
+                            elegia 15a del primo libro di Properzio. Studi Italiani di Filologia
+                            classica XV 1938, p. 323-328.</bibl>
+                        <bibl xml:id="Wakefield" n="Wakefield">Wakefield, Gilbert, T. Lucretii Cari
+                            de Rerum Natura Libri Sex, Londini, 1796</bibl>
+                        <bibl xml:id="Wyngaarden" n="Wyngaarden">Wyngaarden, S. Gymnasii Campensis
+                            Rector: Bibliotheca Critica, Amstelodami 1799-1808, Pars III, pp.
+                            110-113 (censura editionis F. G. Barthii); pars V, pp. 133-4; pars VI,
+                            pp. 1-25 (censura ed. Burmanii); pars XII, p. 5, pp. 48-52.</bibl>
+                    </listBibl>
+                </listBibl>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+
+            <head>1</head>
+
+            <div type="edition">
+                <div type="textpart" subtype="book">
+                    <div type="textpart" subtype="poem" xml:id="poem01">
+                        <head>1</head>
+                        <lg met="elegiacCouplets">
+                            <lg type="couplet">
+                                <l xml:id="l1.1">
+                                    <persName ref="#Cynthia">Cynthia</persName>
+                                    <app>
+                                        <lem wit="#A #N #P #V #Vo">prima</lem>
+                                        <rdg wit="#P">sola</rdg>
+                                    </app> suis miserum me cepit ocellis,</l>
+                                <l xml:id="l1.2">contactum nullis ante cupidinibus</l>
+                            </lg>
+                        </lg>
+                        <lg met="elegiacCouplets">
+                            <lg type="couplet">
+                                <l xml:id="l1.3">
+                                    <app>
+                                        <lem wit="#N #V #Vo">tum</lem>
+                                        <rdg wit="#A #F #P">tunc</rdg>
+                                    </app> mihi constantis deiecit lumina fastus</l>
+                                <l xml:id="l1.4">et caput impositis pressit Amor pedibus,</l>
+                            </lg>
+                        </lg>
+                        <lg met="elegiacCouplets">
+                            <lg type="couplet">
+                                <l xml:id="l1.5">donec me <app>
+                                        <lem wit="#A #N #P #Vo">docuit castas</lem>
+                                        <rdg wit="#V">
+                                            <choice>
+                                                <sic>castas docuit</sic>
+                                                <corr type="V2">docuit castas</corr>
+                                            </choice>
+                                        </rdg>
+                                    </app> odisse puellas</l>
+                                <l xml:id="l1.6">improbus, et nullo vivere consilio.</l>
+                            </lg>
+                        </lg>
+                        <lg met="elegiacCouplets">
+                            <lg type="couplet">
+                                <l xml:id="l1.7">ei mihi, iam <app>
+                                        <lem wit="#N">toto furor hic non deficit anno,</lem>
+                                        <rdg wit="#P #V #Vo">totis furor hic non deficit
+                                            annis,</rdg>
+                                        <rdg wit="#A #F">toto furor hic non deficit annis,</rdg>
+                                    </app>
+                                </l>
+                                <l xml:id="l1.8">cum tamen adversos cogor habere deos.</l>
+                            </lg>
+                        </lg>
+                        <lg met="elegiacCouplets">
+                            <lg type="couplet">
+                                <l xml:id="l1.9">
+                                    <app>
+                                        <lem>
+                                            <persName ref="#Milanion">Milanion</persName>
+                                        </lem>
+                                        <rdg wit="#N #A #F #P #V">minalion</rdg>
+                                        <rdg wit="#F">mimalion</rdg>
+                                    </app>
+                                    <app>
+                                        <lem>nullos</lem>
+                                        <rdg wit="#A #F">nullo</rdg>
+                                    </app> fugiendo, <persName ref="#Tullus">Tulle</persName>,
+                                    labores</l>
+                                <l xml:id="l1.10">saevitiam durae contudit <persName ref="#Iasus"
+                                        >Iasidos</persName>.</l>
+                            </lg>
+                        </lg>
+                        <lg>
+                            <l>nam modo Partheniis amens errabat in antris, rursus in</l>
+                            <l>hirsutas ibat et ille feras; ille etiam Hylaei percussus vulnere</l>
+                            <l>rami saucius Arcadiis rupibus ingemuit. ergo velocem potuit
+                                domuisse</l>
+                            <l>puellam: tantum in amore fides et benefacta valent.</l>
+                        </lg>
+                        <lg met="elegiacCouplets">
+                            <lg type="couplet">
+                                <l xml:id="l1.17">in me tardus Amor non [n]ullas cogitat artes,</l>
+                                <l xml:id="l1.18">nec <app>
+                                        <lem>meminit</lem>
+                                        <rdg wit="#A #F #P"/>
+                                    </app> notas, ut prius, ire vias.</l>
+                            </lg>
+                        </lg>
+                        <lg met="elegaicCouplets">
+                            <lg type="couplet">
+                                <l xml:id="l1.19">
+                                    <app>
+                                        <lem>at</lem>
+                                        <rdg source="#Hartman">aut</rdg>
+                                    </app> vos,deductae quibus est <app>
+                                        <lem>fallacia</lem>
+                                        <rdg source="#Fruter">pellacia</rdg>
+                                    </app>lunae</l>
+                                <l xml:id="l1.20">et labor in magicis <app>
+                                        <lem>sacra</lem>
+                                        <rdg source="#Fontein">fata</rdg>
+                                        <rdg source="#Unger">astra</rdg>
+                                    </app> piare focis,</l>
+                            </lg>
+                        </lg>
+                        <lg met="elegaicCouplets">
+                            <lg>
+                                <l xml:id="l1.21">en agedum dominae mentem convertite nostrae,</l>
+                                <l xml:id="l1.22">et facite illa meo <app>
+                                        <lem>palleat</lem>
+                                        <rdg wit="#A #F">placeat</rdg>
+                                    </app> ore magis!</l>
+                            </lg>
+                        </lg>
+                        <lg>
+                            <lg>
+                                <l xml:id="l1.23">tunc ego crediderim Manes et sidera vobis</l>
+                                <l xml:id="l1.24">posse <app>
+                                        <lem>
+                                            <sic>cythalinis</sic>
+                                        </lem>
+                                        <rdg wit="#F #P">citalinis</rdg>
+                                        <rdg wit="#A">cithalinis</rdg>
+                                        <rdg wit="#V #Vo">cytalinis</rdg>
+                                    </app> ducere carminibus.</l>
+                            </lg>
+                        </lg>
+                        <lg met="elegaicCouplets">
+                            <lg>
+                                <l xml:id="l1.25">
+                                    <app>
+                                        <lem source="#Hemsterhuys #Leo">aut</lem>
+                                        <rdg wit="#N #A #P #V #Vo">et</rdg>
+                                        <rdg wit="#F">
+                                            <choice>
+                                                <sic>et</sic>
+                                                <corr type="F4">at</corr>
+                                            </choice>
+                                        </rdg>
+                                    </app> vos, qui sero lapsum revocatis, amici,</l>
+                                <l xml:id="l1.26">quaerite non sani pectoris auxilia.</l>
+                            </lg>
+                        </lg>
+                        <lg met="elegaicCouplets">
+                            <lg>
+                                <l xml:id="l1.27">fortiter et ferrum saevos patiemur et ignis,</l>
+                                <l xml:id="l1.28">sit modo libertas quae velit ira loqui.</l>
+                            </lg>
+                        </lg>
+                        <lg met="elegiacCouplets">
+                            <lg type="couplet">
+                                <l xml:id="l1.29">
+                                    <app>
+                                        <lem wit="#N #P #V #Vo">ferte</lem>
+                                        <rdg wit="#A">forte</rdg>
+                                        <rdg wit="#F">
+                                            <choice>
+                                                <sic>forte</sic>
+                                                <corr type="F3">fer(r)e</corr>
+                                            </choice>
+                                        </rdg>
+                                    </app> per extremas gentes et <app>
+                                        <lem wit="#N #P #V #Vo">ferte</lem>
+                                        <rdg wit="#A #F">fer(r)e</rdg>
+                                    </app> per undas,</l>
+                                <l xml:id="l1.30">qua non ulla meum femina norit iter:</l>
+                            </lg>
+                        </lg>
+                        <lg met="elegiacCouplets">
+                            <lg type="couplet">
+                                <l xml:id="l1.31">vos remanete, quibus <app>
+                                        <lem wit="#N #A #P #V #Vo">facili</lem>
+                                        <rdg wit="#F">facilis</rdg>
+                                    </app> deus annuit <app>
+                                        <lem wit="#N #A #F #P #V #Vo">aure</lem>
+                                        <rdg wit="#Ϛ">ore</rdg>
+                                    </app>,</l>
+                                <!-->We do not understand what these “ς = worst ones” are.<-->
+                                <l xml:id="l1.32">sitis <app>
+                                        <lem wit="#N #A #F #P #V #Vo">et</lem>
+                                        <rdg source="#Richards">ut</rdg>
+                                    </app> in tuto semper amore pares. </l>
+                            </lg>
+                        </lg>
+                        <lg met="elegiacCouplets">
+                            <lg type="couplet">
+                                <l xml:id="l1.33">in me <app>
+                                        <lem>nostra</lem>
+                                        <rdg source="#Francius">dura</rdg>
+                                        <rdg source="#Richards">uestra</rdg>
+                                    </app> Venus noctes exercet amaras,</l>
+                                <l xml:id="l1.34">et nullo vacuus tempore defit Amor.</l>
+                            </lg>
+                        </lg>
+                        <lg met="elegiacCouplets">
+                            <lg type="couplet">
+                                <l xml:id="l1.35">hoc, moneo, vitate malum: sua quemque moretur</l>
+                                <l xml:id="l1.36">cura, neque assueto mutet amore <app>
+                                        <lem>locum</lem>
+                                        <rdg source="#Otto #Housman">torum</rdg>
+                                    </app>.</l>
+                            </lg>
+                        </lg>
+                        <lg met="elegiacCouplets">
+                            <lg type="couplet">
+                                <l xml:id="l1.37">quod si quis monitis tardas adverterit aures,</l>
+                                <l xml:id="l1.38">heu referet quanto verba dolore mea!</l>
+                            </lg>
+                        </lg>
+                    </div>
+                </div>
+            </div>
+
+
+        </body>
+    </text>
+</TEI>
