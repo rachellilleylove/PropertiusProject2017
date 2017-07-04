@@ -5,8 +5,8 @@
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>Title of Work</title>
-        <author>Name of Author</author>
+        <title>Monobiblos</title>
+        <author>Propertius</author>
         <editor>Name of Editor</editor>
       </titleStmt>
       <editionStmt>
@@ -47,25 +47,381 @@
         descriptions, and lists of early editions, modern editions, and other sources cited
         in the current edition. For more information on encoding the items in the bibliography
         see section 3 Bibliography below. -->
+        
+   
         <div type="section" xml:id="conspectus">
           <head>Conspectus</head>
           <!--A key to the special sigla and abbreviations used in the edition (drawn
           from the @xml:id's assigned to the various items in the
           bibliography). The list of sigla may be generated automatically. -->
-        </div>
-      </div>
+          <listWit>
+          <listWit>
+            <listWit>
+              <head>Codices</head>
+           
+             <witness xml:id="N"> <abbr type="siglum">N</abbr> codex Guelferbytanus Gudianus 224, olim Neapolitanus</witness>
+              <witness xml:id="A">
+                <abbr type="siglum">A</abbr> codex Leidensis Vossianus lat. 38 </witness>
+              <!-- desinit 2,1,63 -->
+              <witness xml:id="F">
+                <abbr type="siglum"> F</abbr> codex Laurentianus plut. 36.49</witness>
+              <witness xml:id="P">
+                <abbr type="siglum"> P</abbr> codex Parisinus Lat 7989</witness>
+              <witness xml:id="V">
+                <abbr type="siglum">V</abbr> codex Vaticanus Ottobonianus Lat. 1514</witness>
+              <witness xml:id="Vo">
+                <abbr type="siglum">Vo</abbr> codex Vossianus 117</witness>
+              
+              <witness xml:id="D">
+                <abbr type="siglum"> D</abbr> codex Dauentriensis 1.82</witness> 
+              <!-- incipit 1,2,14 -->
+              
+              <witness xml:id="L">
+                <abbr type="siglum"> L</abbr> codex Holkham. Misc. 36 </witness>
+              <!-- incipit 2,21,3 -->
+             
+              
+              <witness xml:id="M">
+                <abbr type="siglum"> M </abbr> codex Parisinus Bibl. Nat. lat.8233</witness>
+              <witness xml:id="U">
+                <abbr type="siglum"> U</abbr> codex Vaticanus Vrbinas lat. 641</witness>
+            </listWit>
+
+             <listWit> 
+               <head>
+                  Consensus For <ref target="#book1poem1">Book 1</ref> 
+                </head>
+                
+                  <witness xml:id="ω1">
+                  <abbr type="siglum"> ω
+                    <hi rend="subscript">1</hi>
+                  </abbr> consensus of 
+                  <ref target="#N #A #F #P #V #Vo"> N A F P V Vo </ref> from 
+                  <ref target="#l1.1"> the beginning</ref> to 
+                  <ref target="#l2.13"> 1.2.13</ref>
+                </witness>
+                <witness xml:id="ω2">
+                  <abbr type="siglum"> ω
+                    <hi rend="subscript">2</hi>
+                  </abbr> consensus of 
+                  <ref target="#N #A #F #D #P #V #Vo"> N A F P V Vo </ref> from 
+                  <ref target="#l2.14"> 1.2.14</ref> to 
+                  <ref target="#l22.10"> end of book 1</ref>
+                </witness>
+                </listWit>
+            </listWit>
+              <listWit>
+              <!-- Heyworth material-->
+              <head>Codices no longer extant</head>
+              <witness xml:id="Ω" n="Ω">
+                <abbr type="siglum ">Ω</abbr> codex archetypus, uel certe codicum N et A/Π et Λ
+                consensus.</witness>
+              <witness xml:id="Λ" n="Λ">
+                <abbr type="siglum">Λ</abbr> codex hyparchetypus ex quo JKW deriuati sunt.</witness>
+              <witness xml:id="Υ" n="Υ">
+                <abbr type="siglum">Υ</abbr> codex hyparchetypus ex quo MUR deriuati sunt.</witness>
+              <witness xml:id="Ϛ" n="Ϛ">
+                <abbr type="siglum">Ϛ</abbr> Conjectures from editions before 1600.</witness>
+            </listWit>
+            <!-- will address this later  -->
+          </listWit>
+        </div> 
+        <div type="section"  xml:id="sources">
+            <head>Sources</head>
+            <listBibl>
+              <listBibl>
+                
+                <head>Complete Editions</head>
+                <bibl xml:id="Burman" n="Burman"><abbr type="siglum">Burman</abbr>
+                  <editor>Burman, P.</editor> <!--(completed by L. van Santen)  -->
+                 <pubPlace> Utrecht </pubPlace><date>1780</date></bibl>
+                <bibl xml:id="Giardina" n="Giardina 2005">Giardina, G. (Roma, 2005)</bibl>
+                <bibl xml:id="Heyworth" n="Heyworth (base text)">Heyworth, S.J. (Oxford,
+                  2007)</bibl>
+                <bibl xml:id="Lachmann" n="Lachmann">Lachmann, K. (Leipzig, 1816)</bibl>
+                <bibl xml:id="Müller" n="Müller">Müller, L. (Teubner; Leipzig, 1870)</bibl>
+                <bibl xml:id="Passerat" n="Passerat">Passerat, J. (Paris, 1608)</bibl>
+                <bibl xml:id="Postgate" n="Postgate">Postgate, J.P., in <title>Corpus
+                  Poetrarum Latinorum</title> (London, 1827)</bibl>
+                <bibl xml:id="Leo" n="Leo">Leo, F., Ausgewählte kleine Schriften (Roma,
+                  1960)</bibl>
+                <bibl xml:id="Hemsterhuys" n="Hemsterhuys"/>
+                
+                <!-- had to add something here -->
+                <bibl xml:id="Hartman" n="Hartman"/>
+                <bibl xml:id="Fruter" n="Fruter"/>
+                <bibl xml:id="Unger" n="Unger"/>
+                <bibl xml:id="Richards" n="Richards"/>
+                <bibl xml:id="Otto" n="Otto"/>
+              </listBibl>
+              <listBibl>
+                <head>Sources of conjectures</head>
+                <bibl xml:id="Fontein" n="Fontein">Fontein, Petrus (1708-1788), emendationes
+                  eius exstant in exemplari ed. Broukhusii, quae est in Bibliotheca
+                  ecclesiae Teleibaptistrium Amsteldamensis</bibl>
+                <bibl xml:id="Francius" n="Francius">Francius, Petrus (Peter de Fransz,
+                  1645-1704): condiscipulis Broukhusii; notae eius adscriptae sunt in
+                  marg. edd. Passeratii 1608 Scaligeri 1577 (vid. Catalogum Librorum P.
+                  Francii, Amstelodami 1705, p. 148</bibl>
+                <bibl xml:id="Graevius" n="Graevius">Graevius, Joannes Georgius (Johann
+                  Georg Greffe vel Graeve) 1623-1708; ed. Graeviana: Cat., Tib., Prop., ex
+                  rec. Joannis Georgii Graevii [cuius nomen falso usurpatur], Traiect.
+                  Rhen. 1680</bibl>
+                <bibl xml:id="Georg_" n="Georg">Georg, B. previously unpublished
+                  conjectures.</bibl>
+                <bibl xml:id="Heinsius" n="Heinsius">Heinsius, Nicolaus (Niklaas)
+                  (1620-1681): Adversariorum Libri IV (ed. P. Burman), Harlingen 1742,
+                  quibus accedunt Notae Propertianae, cura J. Broukhusii congestae.</bibl>
+                <bibl xml:id="Heyworth1984" n="Heyworth (1984)">Heyworth, S.J., ‘Notes on
+                  Propertius Books I and II’, CQ 36 (1984), 394-405</bibl>
+                <bibl xml:id="Housman" n="Housman">Housman, A.E., <title>The Classical
+                  Papers of A.E.Housman</title> (3 vols., ed J. Diggle &amp; F.R.D.
+                  Goodyear, 1972)</bibl>
+                <bibl xml:id="Liberman2002" n="Liberman (2002)">Liberman, G. ‘Remarques sur
+                  le premier livre des <hi rend="italics">Élégies</hi> de Properce’,
+                  <title level="j">RPh</title> 76 (2002), 49–100.</bibl>
+                <bibl xml:id="Madvig" n="Madvig">Madvig, J.N., Adversaria Critica II,
+                  Hauniae 1873, pp 62 sqq.</bibl>
+                <bibl xml:id="Markland" n="Markland">Markland, Jeremiah (1693-1776): notae
+                  mss. inveniuntur in: Cat., Tib., Prop. ed. M. Brochard, Lutet. Paris.
+                  1723.</bibl>
+                <bibl xml:id="Nodell" n="Nodell">Nodell, J. A.: Criticarum Observationum
+                  Libellus, Campis 1781.</bibl>
+                <bibl xml:id="Peerlkamp" n="Peerlkamp">Peerlkamp, P. H. S.A.P. libri IV
+                  elegia xi: rec. et illustr. P.H.K. Edidit et praefatus est J. C. G.
+                  Boot, Amstelodami 1865</bibl>
+                <bibl xml:id="Pescani" n="Pescani">P. Pescani, Un disticho interpolato nella
+                  elegia 15a del primo libro di Properzio. Studi Italiani di Filologia
+                  classica XV 1938, p. 323-328.</bibl>
+                <bibl xml:id="Wakefield" n="Wakefield">Wakefield, Gilbert, T. Lucretii Cari
+                  de Rerum Natura Libri Sex, Londini, 1796</bibl>
+                <bibl xml:id="Wyngaarden" n="Wyngaarden">Wyngaarden, S. Gymnasii Campensis
+                  Rector: Bibliotheca Critica, Amstelodami 1799-1808, Pars III, pp.
+                  110-113 (censura editionis F. G. Barthii); pars V, pp. 133-4; pars VI,
+                  pp. 1-25 (censura ed. Burmanii); pars XII, p. 5, pp. 48-52.</bibl>
+              </listBibl>
+            </listBibl>
+            
+          </div>
+        
+    </div>
     </front>
     <body>
       <div type="edition" xml:id="edition-text" xml:space="preserve">
         <div type="textpart" n="1" xml:id="part1">
-          <head>Title of First Part</head>
-          <!--Text goes here, according to the conventions laid out elsewhere in these guidelines.-->
-        </div>
-        <div type="textpart" n="2" xml:id="part2">
-          <head>Title of Second Part</head>
+           <head>Book 1</head>
+          
+            <div type="textpart" subtype="Poem" n="1" xml:id="book1poem1">
+          <head>Poem 1</head>
+          <lg met="elegiaiccouplets">
+                            <lg type="couplet">
+                                <l n="1" xml:id="l1.1">
+                                    <persName ref="#Cynthia">Cynthia</persName>
+                                    <app>
+                                        <lem wit="#A #N #P #V #Vo">prima</lem>
+                                        <rdg wit="#P">sola</rdg>
+                                    </app> suis miserum me cepit ocellis,</l>
+                                <l n="2" xml:id="l1.2">contactum nullis ante cupidinibus</l>
+                            </lg>
+                        
+                            <lg type="couplet">
+                                <l n="3" xml:id="l1.3">
+                                    <app>
+                                        <lem wit="#N #V #Vo">tum</lem>
+                                        <rdg wit="#A #F #P">tunc</rdg>
+                                    </app> mihi constantis deiecit lumina fastus</l>
+                                <l n="4" xml:id="l1.4">et caput impositis pressit Amor pedibus,</l>
+                            </lg>
+                        
+                            <lg type="couplet">
+                                <l n="5" xml:id="l1.5">donec me <app>
+                                        <lem wit="#A #N #P #Vo">docuit castas</lem>
+                                        <rdg wit="#V">
+                                            <choice>
+                                                <sic>castas docuit</sic>
+                                                <corr type="V2">docuit castas</corr>
+                                            </choice>
+                                        </rdg>
+                                    </app> odisse puellas</l>
+                                <l n="6" xml:id="l1.6">improbus, et nullo vivere consilio.</l>
+                            </lg>
+                       
+                            <lg type="couplet">
+                                <l n="7" xml:id="l1.7">ei mihi, iam <app>
+                                        <lem wit="#N">toto furor hic non deficit anno,</lem>
+                                        <rdg wit="#P #V #Vo">totis furor hic non deficit
+                                            annis,</rdg>
+                                        <rdg wit="#A #F">toto furor hic non deficit annis,</rdg>
+                                    </app>
+                                </l>
+                                <l n="8" xml:id="l1.8">cum tamen adversos cogor habere deos.</l>
+                            </lg>
+                        
+                            <lg type="couplet">
+                                <l n="9" xml:id="l1.9">
+                                    <app>
+                                        <lem>
+                                            <persName ref="#Milanion">Milanion</persName>
+                                        </lem>
+                                        <rdg wit="#N #A #F #P #V">minalion</rdg>
+                                        <rdg wit="#F">mimalion</rdg>
+                                    </app>
+                                    <app>
+                                        <lem>nullos</lem>
+                                        <rdg wit="#A #F">nullo</rdg>
+                                    </app> fugiendo, <persName ref="#Tullus">Tulle</persName>,
+                                    labores</l>
+                                <l n="10" xml:id="l1.10">saevitiam durae contudit <persName ref="#Iasus"
+                                        >Iasidos</persName>.</l>
+                            </lg>
+                        
+                          <lg type="couplet">
+                            <l n="11" xml:id="l1.11">nam modo Partheniis amens errabat in antris,</l>
+                            <l n="12" xml:id="l1.12">ibat et hirsutas ille videre feras</l>
+                          </lg>
+                        
+                <lg type="couplet">
+                            <l n="13" xml:id="l1.13">ille etiam Hylaei percussus vulnere rami</l>
+                            <l n="14" xml:id="l1.14">saucius Arcadiis rupibus ingemuit.</l>
+                </lg>
+              
+                <lg type="couplet">
+                            <l n="15" xml:id="l1.15">ergo velocem potuit domuisse puellam:</l>
+                            <l n="16" xml:id="l1.16">tantum in amore preces et bene facta valent.</l>
+                </lg>
+              
+                            <lg type="couplet">
+                                <l n="17" xml:id="l1.17">in me tardus Amor non [n]ullas cogitat artes,</l>
+                                <l n="18" xml:id="l1.18">nec <app>
+                                        <lem>meminit</lem>
+                                        <rdg wit="#A #F #P"/>
+                                    </app> notas, ut prius, ire vias.</l>
+                            </lg>
+                            <lg type="couplet">
+                                <l n="19" xml:id="l1.19">
+                                    <app>
+                                        <lem>at</lem>
+                                        <rdg source="#Hartman">aut</rdg>
+                                    </app> vos,<app><lem>deductae</lem><rdg wit="#A #F">deducto</rdg></app> quibus est <app>
+                                        <lem>fallacia</lem>
+                                        <rdg source="#Fruter">pellacia</rdg>
+                                    </app>lunae</l>
+                                <l n="20" xml:id="l1.20">et labor in magicis <app>
+                                        <lem>sacra</lem>
+                                        <rdg source="#Fontein">fata</rdg>
+                                        <rdg source="#Unger">astra</rdg>
+                                    </app> piare focis,</l>
+                            </lg>
+                            <lg type="couplet">
+                                <l n="21" xml:id="l1.21">en agedum dominae mentem convertite nostrae,</l>
+                                <l n="22" xml:id="l1.22">et facite illa meo <app>
+                                        <lem>palleat</lem>
+                                        <rdg wit="#A #F">placeat</rdg>
+                                    </app> ore magis!</l>
+                            </lg>
+                       
+               
+                            <lg type="couplet">
+                                <l n="23" xml:id="l1.23">tunc ego crediderim Manes et sidera vobis</l>
+                                <l n="24" xml:id="l1.24">posse <app>
+                                        <lem>
+                                            <sic>cythalinis</sic>
+                                        </lem>
+                                        <rdg wit="#F #P">citalinis</rdg>
+                                        <rdg wit="#A">cithalinis</rdg>
+                                        <rdg wit="#V #Vo">cytalinis</rdg>
+                                    </app> ducere carminibus.</l>
+                            </lg>
+                        
+                            <lg type="couplet">
+                                <l n="25" xml:id="l1.25">
+                                    <app>
+                                        <lem source="#Hemsterhuys #Leo">aut</lem>
+                                        <rdg wit="#N #A #P #V #Vo">et</rdg>
+                                        <rdg wit="#F">
+                                            <choice>
+                                                <sic>et</sic>
+                                                <corr type="F4">at</corr>
+                                            </choice>
+                                        </rdg>
+                                    </app> vos, qui sero lapsum revocatis, amici,</l>
+                                <l n="26" xml:id="l1.26">quaerite non sani pectoris auxilia.</l>
+                            </lg>
+                        
+                            <lg type="couplet">
+                                <l n="27" xml:id="l1.27">fortiter et ferrum saevos patiemur et ignis,</l>
+                                <l n="28" xml:id="l1.28">sit modo libertas quae velit ira loqui.</l>
+                            </lg>
+                        
+                            <lg type="couplet">
+                                <l n="29" xml:id="l1.29">
+                                    <app>
+                                        <lem wit="#N #P #V #Vo">ferte</lem>
+                                        <rdg wit="#A">forte</rdg>
+                                        <rdg wit="#F">
+                                            <choice>
+                                                <sic>forte</sic>
+                                                <corr type="F3">fer(r)e</corr>
+                                            </choice>
+                                        </rdg>
+                                    </app> per extremas gentes et <app>
+                                        <lem wit="#N #P #V #Vo">ferte</lem>
+                                        <rdg wit="#A #F">fer(r)e</rdg>
+                                    </app> per undas,</l>
+                                <l n="30" xml:id="l1.30">qua non ulla meum femina norit iter:</l>
+                            </lg>
+                        
+                            <lg type="couplet">
+                                <l n="31" xml:id="l1.31">vos remanete, quibus <app>
+                                        <lem wit="#N #A #P #V #Vo">facili</lem>
+                                        <rdg wit="#F">facilis</rdg>
+                                    </app> deus annuit <app>
+                                        <lem wit="#N #A #F #P #V #Vo">aure</lem>
+                                        <rdg wit="#Ϛ">ore</rdg>
+                                    </app>,</l>
+                                
+                                <l n="32" xml:id="l1.32">sitis <app>
+                                        <lem wit="#N #A #F #P #V #Vo">et</lem>
+                                        <rdg source="#Richards">ut</rdg>
+                                    </app> in tuto semper amore pares. </l>
+                            </lg>
+                       
+                            <lg type="couplet">
+                                <l n="33" xml:id="l1.33">in me <app>
+                                        <lem>nostra</lem>
+                                        <rdg source="#Francius">dura</rdg>
+                                        <rdg source="#Richards">uestra</rdg>
+                                    </app> Venus noctes exercet amaras,</l>
+                                <l n="34" xml:id="l1.34">et nullo vacuus tempore defit Amor.</l>
+                            </lg>
+                        
+                            <lg type="couplet">
+                                <l n="35" xml:id="l1.35">hoc, moneo, vitate malum: sua quemque moretur</l>
+                                <l n="36" xml:id="l1.36">cura, neque assueto mutet amore <app>
+                                        <lem>locum</lem>
+                                        <rdg source="#Otto #Housman">torum</rdg>
+                                    </app>.</l>
+                            </lg>
+                        
+                            <lg type="couplet">
+                                <l n="37" xml:id="l1.37">quod si quis monitis tardas adverterit aures,</l>
+                                <l n="38" xml:id="l1.38">heu referet quanto verba dolore mea!</l>
+                            </lg>
+                        </lg>
+              
+              </div>
+          <div type="textpart" n="2" xml:id="poem2">
+
+              <head>Poem 2</head>
           <!--Each new major section (e.g., book, volume) has a new <div>.-->
         </div>
+        </div>
       </div>
+     
+  
+        
+   
+        
     </body>
     <back>
       <!--The content of the back matter will be determined in consultation between
